@@ -1,0 +1,35 @@
+/* Form control – scoped only to explicit .form-control class */
+/* Do NOT apply global overrides to bare input/textarea/select –
+   that breaks glassmorphism panels (hero search, auth inputs, etc.) */
+
+.form-control {
+  color: #111827;
+  -webkit-text-fill-color: #111827;
+  background-color: #ffffff;
+  border: 1px solid #cbd5e1;
+  opacity: 1;
+  caret-color: #059669;
+}
+
+.form-control::placeholder {
+  color: #64748b;
+  -webkit-text-fill-color: #64748b;
+  opacity: 1;
+}
+
+.form-control:focus {
+  color: #111827;
+  -webkit-text-fill-color: #111827;
+  background-color: #ffffff;
+  border-color: #059669;
+  outline: none;
+  box-shadow: 0 0 0 3px rgb(5 150 105 / 20%);
+}
+
+.form-control:disabled {
+  color: #475569;
+  -webkit-text-fill-color: #475569;
+  background-color: #f1f5f9;
+  opacity: 1;
+  cursor: not-allowed;
+}

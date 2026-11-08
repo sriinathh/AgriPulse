@@ -1,0 +1,31 @@
+/* Swagger API link custom styling */
+.swagger-api-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  padding: 10px 14px;
+  color: #14532d !important;
+  background-color: #dcfce7 !important;
+  border: 1px solid #15803d !important;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 600;
+  opacity: 1 !important;
+  text-decoration: none;
+  white-space: nowrap;
+  cursor: pointer;
+}
+.swagger-api-link svg {
+  color: #14532d !important;
+  opacity: 1 !important;
+  flex-shrink: 0;
+}
+.swagger-api-link:hover {
+  color: #14532d !important;
+  background-color: #bbf7d0 !important;
+}
+.swagger-api-link:focus-visible {
+  outline: 3px solid #15803d;
+  outline-offset: 2px;
+}

@@ -1,0 +1,31 @@
+﻿{
+    "response":  {
+                     "status":  "stored",
+                     "reading":  {
+                                     "reading_id":  111,
+                                     "sensor_id":  "SM007",
+                                     "field_id":  "F006",
+                                     "timestamp":  "2026-10-28T12:34:45.249540",
+                                     "soil_moisture":  28.5,
+                                     "measurement_type":  "soil_moisture",
+                                     "value":  28.5,
+                                     "unit":  "%",
+                                     "quality_status":  "valid",
+                                     "quality_flags":  null,
+                                     "temperature":  22.4,
+                                     "humidity":  45.0,
+                                     "soil_ph":  null,
+                                     "rainfall":  null,
+                                     "water_level":  null,
+                                     "flow_rate":  null,
+                                     "is_simulated":  false
+                                 },
+                     "cleaning":  {
+                                      "timestamp_source":  "client",
+                                      "notes":  [
+                                                    "timezone-aware timestamp converted to UTC"
+                                                ]
+                                  }
+                 },
+    "status":  201
+}

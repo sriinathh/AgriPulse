@@ -1,0 +1,13 @@
+/* Dashboard action links styling */
+.dashboard-action {
+  color: #047857; /* emerald-700 */
+  font-weight: 600;
+  opacity: 1;
+}
+.dashboard-action:hover {
+  color: #065f46; /* emerald-800 */
+}
+.dashboard-action:focus-visible {
+  outline: 2px solid #047857;
+  outline-offset: 2px;
+}

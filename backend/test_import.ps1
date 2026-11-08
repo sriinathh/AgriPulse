@@ -1,0 +1,2 @@
+$env:PYTHONPATH = 'C:\Users\Arpitha Medharametla\Documents\smart-irrigation\backend'
+& 'C:\Users\Arpitha Medharametla\Documents\smart-irrigation\.venv\Scripts\python.exe' -c "import app.main; print('ok')"

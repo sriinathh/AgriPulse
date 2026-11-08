@@ -1,0 +1,13 @@
+/* Ensure dashboard action links have sufficient contrast */
+.dashboard-card-link {
+  color: #047857 !important; /* emerald-700 */
+  font-weight: 600 !important; /* semibold */
+  opacity: 1 !important;
+}
+.dashboard-card-link:hover {
+  color: #065f46 !important; /* emerald-800 */
+}
+.dashboard-card-link:focus-visible {
+  outline: 2px solid #10b981; /* emerald-500 */
+  outline-offset: 2px;
+}

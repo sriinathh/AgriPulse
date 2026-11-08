@@ -1,0 +1,2 @@
+$env:PYTHONPATH = 'C:\Users\Arpitha Medharametla\Documents\smart-irrigation\backend'
+& 'C:\Users\Arpitha Medharametla\Documents\smart-irrigation\.venv\Scripts\uvicorn.exe' app.main:app --host 127.0.0.1 --port 8001 --log-level debug *>&1 | Out-File -FilePath 'C:\Users\Arpitha Medharametla\Documents\smart-irrigation\backend\uvicorn_debug.log' -Encoding utf8
